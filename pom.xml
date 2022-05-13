@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.compomics</groupId>
     <artifactId>COSS</artifactId>
@@ -7,7 +7,7 @@
     <packaging>jar</packaging>
     
     <name>COSS</name>
-    <url>http://maven.apache.org</url>
+    <url>https://maven.apache.org</url>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,7 +25,7 @@
 
     <organization>
         <name>compomics</name>
-        <url>http://compomics.com/</url>
+        <url>https://compomics.com/</url>
     </organization>
 
 
@@ -189,20 +189,20 @@
         <repository>
             <id>genesis-maven2-repository</id>
             <name>Genesis maven2 repository</name>
-            <url>http://genesis.UGent.be/maven2</url>
+            <url>https://genesis.UGent.be/maven2</url>
             <layout>default</layout>
         </repository>
           
         <repository>
             <id>netbeans</id>
             <name>Netbeans rep</name>
-            <url>http://bits.netbeans.org/maven2/</url>
+            <url>https://netbeans.apidesign.org/maven2/</url>
         </repository>
         
         <repository>
             <id>netbeans-oracle</id>
             <name>NetBeans</name>
-            <url>http://netbeans.apidesign.org/maven2/</url>
+            <url>https://netbeans.apidesign.org/maven2/</url>
         </repository>
         
         <repository>
@@ -214,7 +214,7 @@
         <!-- JPL library repository-->
         <repository>
             <id>Expasy MzJava</id>
-            <url>http://mzjava.expasy.org/maven</url>
+            <url>https://mzjava.expasy.org/maven</url>
         </repository>
             
             
@@ -222,14 +222,14 @@
         <repository>
             <id>pst-release</id>
             <name>EBI Nexus Repository</name>
-            <url>http://www.ebi.ac.uk/Tools/maven/repos/content/repositories/pst-release</url>
+            <url>https://www.ebi.ac.uk/Tools/maven/repos/content/repositories/pst-release</url>
         </repository>
     
         <!-- EBI SNAPSHOT repo -->
         <repository>
             <id>pst-snapshots</id>
             <name>EBI Nexus Snapshots Repository</name>
-            <url>http://www.ebi.ac.uk/Tools/maven/repos/content/repositories/pst-snapshots</url>
+            <url>https://www.ebi.ac.uk/Tools/maven/repos/content/repositories/pst-snapshots</url>
         </repository>
         
       
@@ -480,7 +480,7 @@
         <repository>
             <id>archiva.compomics_maven_2</id>
             <name>Internal Release Repository</name>
-            <url>http://genesis.ugent.be/maven2</url>
+            <url>https://genesis.ugent.be/maven2</url>
         </repository>
         
     </distributionManagement>

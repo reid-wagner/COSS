@@ -100,7 +100,7 @@ public class MainConsoleController implements UpdateListener {
             configData = new ConfigData();
 
             //Load user inputs from properties file
-            loadData(args);
+            loadData(args, lenArgs);
             //validate user input configData
             List<String> valdMsg = validateSettings();
 
@@ -133,9 +133,7 @@ public class MainConsoleController implements UpdateListener {
     /**
      * Method to load setting configData from config.properties file
      */
-    private void loadData(String[] ipArgs) {
-        //Reading User inputs and set to config configData 
-        int lenArgs = ipArgs.length;
+    private void loadData(String[] ipArgs, int lenArgs) {
 
         //Scoring function
         configData.setScoringFunction(ConfigHolder.getInstance().getInt("matching.algorithm"));
